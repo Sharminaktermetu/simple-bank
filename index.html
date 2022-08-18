@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="mt-5">
+        <h1 class="text-5xl text-center p-4 bg-sky-500 w-9/12 mx-auto text-white">Let make bank document</h1>
+    
+        <section class="w-9/12 mx-auto">
+            <div class="grid grid-cols-3 gap-4 mt-8 text-white text-center">
+                <div class="bg-purple-400 rounded-lg p-8  text-2xl">
+                    <h4>Deposite</h4>
+                    <h4 class="text-5xl">$<span id="diposite-amount">00</span> </h4>
+                </div>
+    
+                <div class="bg-pink-400 rounded-lg p-8 text-2xl">
+                    <h4>Withdraw</h4>
+                    <h4 class="text-5xl">$<span id="withdraw-amount">00</span> </h4>
+                </div>
+                <div class="bg-sky-300 rounded-lg p-8 text-2xl">
+                    <h4>ToTal amount</h4>
+                    <h4 class="text-5xl">$ <span id="total-depo-amount">1200</span></h4>
+                </div>
+            </div>
+        </section>
+            <section class="w-9/12 mx-auto">
+    
+                <div class="grid grid-cols-2 gap-4 mt-8">
+                    <div class="bg-orange-400 rounded-lg p-6 ">
+                        <h4 class="mb-3">Deposite</h4>
+                        <input id="input-field" class="w-9/12 p-2" type="text" placeholder=" Please enter your doposite amount">
+                        <button id="deposite-btn" class="btn bg-black px-8 py-2 text-white  mt-3 rounded-lg">Submit</button>
+                    </div>
+    
+                    <div class="bg-green-600  rounded-lg p-6 ">
+                        <h4 class="mb-3">Withdraw</h4>
+                        <input id="input-withdraw" class="w-9/12 p-2" type="text" placeholder=" Please enter your doposite amount">
+
+                        <button id="withdraw-btn" class="btn bg-white px-8 py-2 text-black  mt-3 rounded-lg">Submit</button>
+                    </div>
+    
+                </div>
+                
+            
+        </section>
+    </header>
+    
+    <script src="js/dombyfunction.js"></script>
+    <script src="js/withdraw.js"></script>
+</body>
+</html>
